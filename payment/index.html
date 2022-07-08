@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Payment</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container">
+        <div class="main__inner">
+          <ul class="main__list">
+            <li class="main__list-item">
+              <img src="images/american-express.png" alt="american-express" />
+            </li>
+            <li class="main__list-item">
+              <img src="images/maestro.png" alt="maestro" />
+            </li>
+            <li class="main__list-item">
+              <img src="images/union-pay.png" alt="union-pay" />
+            </li>
+            <li class="main__list-item">
+              <img src="images/visa.png" alt="visa" />
+            </li>
+          </ul>
+          <form class="main__form" action="pages/index.html">
+            <label for="CardNumber"
+              ><span class="card__spans">Номер Карты</span>
+            </label>
+            <input
+              required
+              class="main__form-card-number"
+              pattern="[0-9 ]*"
+              id="CardNumber"
+              type="text"
+              maxlength="16"
+              inputmode="numeric"
+              style="width: 80%"
+            />
+            <label for="Card__exp-1">
+              <span class="card__spans">Действует до </span></label
+            >
+            <input
+              required
+              class="main__form-exp-date"
+              pattern="[0-9 ]*"
+              id="Card__exp-1"
+              type="text"
+              maxlength="2"
+              inputmode="numeric"
+              placeholder="ММ"
+              style="width: 8%"
+            />
+            <span>/</span>
+            <input
+              required
+              class="main__form-exp-date"
+              pattern="[0-9 ]*"
+              id="Card__exp-2"
+              type="text"
+              maxlength="2"
+              inputmode="numeric"
+              placeholder="ГГ"
+              style="width: 8%"
+            />
+            <label for="Card__CVC">
+              <span class="card__spans">CVV/CVC</span>
+            </label>
+            <input
+              required
+              class="main__form-cvc"
+              pattern="[0-9 ]*"
+              id="Card__CVC"
+              type="text"
+              maxlength="3"
+              inputmode="numeric"
+              placeholder="000"
+              style="width: 10%"
+            />
+            <input
+              class="main__form-submit"
+              type="submit"
+              value="Пополнить"
+              style="margin-left: 10%"
+            />
+          </form>
+        </div>
+      </div>
+    </main>
+    <div class="cookie">
+      <div class="container">
+        <form action="#">
+          <input type="checkbox" />
+          <label for="cookie__checkbox"
+            >Запомнить карту. Это безопасно.<br />
+            Сохраняя карту, вы соглашаетесь с
+            <a>условиями привязки карты.</a>
+          </label>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>

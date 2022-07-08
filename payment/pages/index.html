@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="main.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Second Page</title>
+  </head>
+
+  <body>
+    <section class="section">
+      <div class="container">
+        <div class="section__info">
+          <div class="section__info-price">
+            <h1>2000р</h1>
+          </div>
+          <div class="section__info-place">
+            <p>Магазин</p>
+            <p>psp</p>
+          </div>
+          <div class="section__info-card">
+            <p>Номер карты</p>
+            <p>** 4004</p>
+          </div>
+          <div class="section__info-date">
+            <p>Дата</p>
+            <p>07.07.2022</p>
+          </div>
+        </div>
+        <div class="section__text">
+          <h2>Отправили Код</h2>
+          <p>Для его получения ваш номер должен быть подключен к СМС-банку</p>
+        </div>
+        <div class="section__input-info">
+          <p>Введите код для оплаты покупки</p>
+          <input inputmode="numeric" pattern="[0-9]*" type="text" />
+          <p>Повторный запрос через <b> 19 секунд</b></p>
+          <button class="section__input-info-btn hide" type="submit">
+            получить новый код
+          </button>
+          <p class="hide">Или подключить <a href="#">СМС-банк</a></p>
+        </div>
+        <div class="section__footer">
+          <a href="">Отменить</a>
+          <a href="">Безопасность</a>
+        </div>
+      </div>
+    </section>
+    <section class="block">
+      <div class="container">
+        <div class="block__inner">
+          <div class="block__title">
+            <h2>Уверены, что хотите отменить попупку?</h2>
+            <p>Чтобы продолжить, вернитесь и введите полученный код</p>
+          </div>
+          <div class="block__btns">
+            <button class="block__btn btn green">
+              вернуться к подтверждению
+            </button>
+            <button class="block__btn btn white">Да, отменить</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

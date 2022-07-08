@@ -1,0 +1,115 @@
+body {
+  background-color: #d9d9d9;
+  background-image: linear-gradient(315deg, #d9d9d9 0%, #f6f2f2 74%);
+}
+.container {
+  box-shadow: 4px 4px 8px 4px rgba(34, 60, 80, 0.2);
+  background-color: #fff;
+  padding: 50px 0 0 0;
+  max-width: 500px;
+  margin: 0 auto;
+  border-radius: 5px 5px 20px 20px;
+}
+
+.section__info {
+  padding: 0 50px;
+  font-size: 20px;
+}
+.sectoon__info-card {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.section__info-date {
+  display: flex;
+  justify-content: space-between;
+}
+.section__info-place {
+  height: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+.section__info-price {
+  display: flex;
+  justify-content: space-between;
+}
+
+.section__text {
+  padding: 0 50px;
+  font-size: 20px;
+}
+
+.section__input-info {
+  padding: 0 50px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.section__input-info input {
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  opacity: 0.7;
+  font-size: 24px;
+}
+.section__input-info a {
+  text-decoration: none;
+  font-weight: 500;
+  color: rgba(39, 232, 39, 0.982);
+}
+.section__input-info-btn {
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  background-color: white;
+  border-radius: 10px;
+  border-color: rgba(0, 0, 0, 0.4);
+}
+.section__input-info-btn:active {
+  border-color: rgba(0, 0, 0, 0.7);
+}
+
+.section__footer {
+  border-radius: 0 0 20px 20px;
+  padding: 20px 50px 0 50px;
+  height: 40px;
+  background-color: rgba(34, 60, 80, 0.1);
+  display: flex;
+  justify-content: space-between;
+}
+.section__footer a {
+  color: red;
+  text-decoration: none;
+  font-size: 18px;
+}
+.section__footer a:last-child {
+  color: rgba(34, 60, 80, 0.6);
+}
+
+.block__title {
+  padding: 0 50px;
+  font-size: 18px;
+}
+
+.block__btns {
+  padding: 50px 50px;
+}
+
+.block__btn {
+  display: block;
+  width: 100%;
+  height: 60px;
+  font-size: 20px;
+  border-radius: 10px;
+  margin: 15px 0;
+}
+
+.green {
+  background-color: rgba(86, 212, 50, 0.833);
+  border: none;
+}
+
+.white {
+  background-color: white;
+  border-color: rgba(0, 0, 0, 0.3176470588);
+  border: 1px dashed;
+}
